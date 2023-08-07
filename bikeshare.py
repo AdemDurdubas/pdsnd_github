@@ -31,7 +31,7 @@ def get_filters():
             else:
                 print("Invalid input. Please enter a valid city.")
 
-        # TO DO: get user input for month (all, january, february, ... , june)
+        # get user input for month (all, january, february, ... , june)
         valid_items=['all', 'january', 'february', 'march', 'april', 'may', 'june']
         valid_shorts=['all', 'jan', 'feb', 'mar', 'apr', 'may', 'jun']
         while True:
@@ -47,8 +47,8 @@ def get_filters():
             else:
                 print("Invalid input. Please enter a valid month.")
 
-
-        # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+	# This is comment change
+        # get user input for day of week (all, monday, tuesday, ... sunday)
         valid_items=['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
         valid_shorts=['all', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun']
         while True:
