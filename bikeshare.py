@@ -212,7 +212,7 @@ def display_data(df):
             rec_chunk += 45
         if start_loc >= max_count:
             # If all records are displayed then loop should end automatically
-            print("\** Congrats .. you have seen all records. ")
+            print("\**** Congrats .. you have seen all records. ")
             break
         show_data = input("Do you wish to continue ? (Enter 'No' to Stop) : ").lower()
     
