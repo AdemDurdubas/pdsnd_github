@@ -204,7 +204,7 @@ def display_data(df):
     show_data = input("Would you like to view 5 rows of individual trip data? (Enter 'No' to skip) \n").lower()
     start_loc = 0
     while show_data != 'no':
-        print("Show records {} to {} from total {}".format(start_loc,start_loc + rec_chunk, max_count)) 
+        print("Show records {} to {} from total {} ...  ".format(start_loc,start_loc + rec_chunk, max_count)) 
         print(df.iloc[start_loc:start_loc + rec_chunk])
         start_loc += rec_chunk
         if start_loc == 50:
