@@ -24,7 +24,7 @@ def get_filters():
     try:
         valid_items=['chicago', 'new york city', 'washington']
         while True:
-            user_input = input("Please enter city (valid values are: chicago, new york city, washington):\n").lower()
+            user_input = input("** Please enter city (valid values are: chicago, new york city, washington):\n").lower()
             if user_input in valid_items:
                 city = user_input
                 break  # Exit the loop if the input is valid
@@ -205,7 +205,7 @@ def display_data(df):
     show_data = input("Would you like to view 5 rows of individual trip data? (Enter 'No' to skip) \n").lower()
     start_loc = 0
     while show_data != 'no':
-        print("Show records {} to {} from total {}".format(start_loc,start_loc + rec_chunk, max_count)) 
+        print("Show records {} to {} from total {} ...  ".format(start_loc,start_loc + rec_chunk, max_count)) 
         print(df.iloc[start_loc:start_loc + rec_chunk])
         start_loc += rec_chunk
         if start_loc == 50:
@@ -213,7 +213,7 @@ def display_data(df):
             rec_chunk += 45
         if start_loc >= max_count:
             # If all records are displayed then loop should end automatically
-            print("\** Congrats .. you have seen all records. ")
+            print("\**** Congrats .. you have seen all records. ")
             break
         show_data = input("Do you wish to continue ? (Enter 'No' to Stop) : ").lower()
     
