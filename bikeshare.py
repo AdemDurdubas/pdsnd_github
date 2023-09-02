@@ -33,7 +33,8 @@ def get_filters():
 
         # get user input for month (all, january, february, ... , june)
         valid_items=['all', 'january', 'february', 'march', 'april', 'may', 'june']
-        valid_shorts=['all', 'jan', 'feb', 'mar', 'apr', 'may', 'jun']
+        # user should also have chance to shorten the input values for quicker handling
+	valid_shorts=['all', 'jan', 'feb', 'mar', 'apr', 'may', 'jun']
         while True:
             user_input = input("Please enter month (valid values are: 'all', 'january', 'february', 'march', 'april', 'may', 'june'):\n").lower()
             if user_input in valid_items:
