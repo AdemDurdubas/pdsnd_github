@@ -13,8 +13,8 @@ def get_filters():
 
     Returns:
         (str) city - name of the city to analyze
-        (str) month - name of the month to filter by, or "all" to apply no month filter
-        (str) day - name of the day of week to filter by, or "all" to apply no day filter
+        (str) month - name of the month to filter by, or "all" to apply no month filter; Entering first 3 chars is also valid
+        (str) day - name of the day of week to filter by, or "all" to apply no day filter; Entering first 3 chars is also valid
     """
     print('Hello! Let\'s explore some US bikeshare data!')
 
@@ -33,7 +33,8 @@ def get_filters():
 
         # get user input for month (all, january, february, ... , june)
         valid_items=['all', 'january', 'february', 'march', 'april', 'may', 'june']
-        valid_shorts=['all', 'jan', 'feb', 'mar', 'apr', 'may', 'jun']
+        # user should also have chance to shorten the input values for quicker handling
+	valid_shorts=['all', 'jan', 'feb', 'mar', 'apr', 'may', 'jun']
         while True:
             user_input = input("Please enter month (valid values are: 'all', 'january', 'february', 'march', 'april', 'may', 'june'):\n").lower()
             if user_input in valid_items:
@@ -48,6 +49,7 @@ def get_filters():
                 print("Invalid input. Please enter a valid month.")
 
 
+	# This is comment change
         # get user input for day of week (all, monday, tuesday, ... sunday)
         valid_items=['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
         valid_shorts=['all', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun']
