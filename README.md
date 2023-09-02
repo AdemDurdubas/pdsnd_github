@@ -12,6 +12,8 @@ Python seems to be a very powerful tool for data analysts.
 
 Task is to learn the version handling with github. At the end pupil should be able to create own branches and software changes. Afterwards there modifications has to be committed and put into the right target repositories. 
 
+It is important to add descriptive commits
+
 ### Files used
 bikeshare.py
 some csv data files containing share data from different cities
