@@ -20,6 +20,7 @@ def get_filters():
 
     # Comment #1
 	# Comment #2
+	# Comment #3
 	# get user input for city (chicago, new york city, washington). 
     # HINT: Use a while loop to handle invalid inputs
 
