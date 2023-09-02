@@ -228,7 +228,7 @@ def main():
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
-            print('Good bye! Wish you a nice time !')
+            print('Good buy! Wish you a nice time !')
             break
 
 

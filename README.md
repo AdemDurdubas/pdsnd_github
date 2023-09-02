@@ -1,5 +1,6 @@
 ### Date created
 Created on 07.08.2023
+Re-Submit prep for 02.09.2023
 
 ### Project Title
 Bikeshare Project
@@ -18,5 +19,5 @@ some csv data files containing share data from different cities
 
 ### Credits
 Most probably **udacity** is the owner of all content and scripts used in this course.
-
+Vodafone.com 
 
