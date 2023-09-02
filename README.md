@@ -5,13 +5,18 @@ Created on 07.08.2023
 Bikeshare Project
 
 ### Description
-This learning Project teaches python and numpy and pandas
+This learning Project teaches python and numpy and pandas. As my first submit was not well enough
+i have to impreove and resubmit.
+Python seems to be a very powerful tool for data analysts.
+
+Task is to learn the version handling with github. At the end pupil should be able to create own branches and software changes. Afterwards there modifications has to be committed and put into the right target repositories. 
 
 ### Files used
 bikeshare.py
-some csv data files
+some csv data files containing share data from different cities
 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Most probably **udacity** is the owner of all content and scripts used in this course.
+
 
