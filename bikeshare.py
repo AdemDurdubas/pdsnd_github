@@ -24,7 +24,7 @@ def get_filters():
     try:
         valid_items=['chicago', 'new york city', 'washington']
         while True:
-            user_input = input("Please enter city (valid values are: chicago, new york city, washington):\n").lower()
+            user_input = input("** Please enter city (valid values are: chicago, new york city, washington):\n").lower()
             if user_input in valid_items:
                 city = user_input
                 break  # Exit the loop if the input is valid
