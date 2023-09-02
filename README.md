@@ -14,6 +14,7 @@ Task is to learn the version handling with github. At the end pupil should be ab
 
 It is important to add descriptive commits
 #2
+#3
 
 ### Files used
 bikeshare.py
